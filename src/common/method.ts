@@ -389,7 +389,7 @@ export function generateRandomIndex(prefix:string):string {
         prefix = "Sheet";
     }
 
-    let userAgent = window.navigator.userAgent.replace(/[^a-zA-Z0-9]/g, "").split("");
+    let userAgent = 'Amit'.replace(/[^a-zA-Z0-9]/g, "").split("");
 
     let mid = "";
 
